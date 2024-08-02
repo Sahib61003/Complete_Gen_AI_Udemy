@@ -1,0 +1,13 @@
+prefix=C:/Complete_Gen_AI_Udemy/venev/Library
+exec_prefix=C:/Complete_Gen_AI_Udemy/venev/Library
+libdir=C:/Complete_Gen_AI_Udemy/venev/Library/lib
+sharedlibdir=C:/Complete_Gen_AI_Udemy/venev/Library/lib
+includedir=C:/Complete_Gen_AI_Udemy/venev/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

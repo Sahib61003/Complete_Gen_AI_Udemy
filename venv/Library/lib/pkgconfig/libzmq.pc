@@ -1,0 +1,12 @@
+prefix=c:/Complete_Gen_AI_Udemy/venv/Library
+exec_prefix=c:/Complete_Gen_AI_Udemy/venv/Library
+libdir=c:/Complete_Gen_AI_Udemy/venv/Library/lib
+includedir=c:/Complete_Gen_AI_Udemy/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
